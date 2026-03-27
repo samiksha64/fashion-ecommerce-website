@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
-<%@page import="java.util.*,com.pojo.Product"%>
+<%@page import="java.util.*,"%>
+<%@page import="com.pojo.Product"%>
 <%
 if (request.getAttribute("products") == null) {
 	response.sendRedirect("HomeProductsServlet");
