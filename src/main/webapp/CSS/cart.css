@@ -1,0 +1,306 @@
+@charset "UTF-8";
+body {
+	font-family: Arial, sans-serif;
+	background: #f5f5f5;
+	color: #222;
+}
+/*---------------------------------- HEADER ------------------------------------*/
+
+.logo h3 {
+	color: #000;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+/* search */
+.search-box {
+	position: relative;
+}
+
+.search-box input {
+	border-radius: 30px;
+	padding: 10px 40px;
+	border: 1px solid #ddd;
+}
+
+.search-box i {
+	position: absolute;
+	right: 15px;
+	top: 12px;
+	color: #777;
+}
+
+/* icons */
+.icons {
+	display: flex;
+	justify-content: flex-end;
+	gap: 20px;
+}
+
+.icon-item {
+	text-align: center;
+	font-size: 13px;
+	cursor: pointer;
+	color: #333;
+	transition: 0.3s;
+}
+
+.icon-item i {
+	display: block;
+	font-size: 18px;
+	margin-bottom: 3px;
+}
+
+.icon-item:hover {
+	color: #000;
+	transform: translateY(-2px);
+}
+
+/* menu */
+.menu-bar {
+	background: #fff;
+	border-top: 1px solid #eee;
+	padding: 10px 0;
+}
+
+.categories {
+	background: #000;
+	color: #fff;
+	padding: 8px 15px;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.categories:hover {
+	background: #333;
+}
+
+.nav-link {
+	color: #333;
+	font-weight: 500;
+	transition: 0.3s;
+}
+
+.nav-link:hover {
+	color: #000;
+}
+
+/*---------------------------------- Hamburger menu ------------------------------------*/
+.menu-btn {
+	background: #000;
+	color: white;
+	border: none;
+	font-size: 20px;
+	padding: 8px 14px;
+	border-radius: 6px;
+	transition: 0.3s;
+}
+
+.menu-btn:hover {
+	background: #333;
+	color: white;
+}
+
+/* mobile menu */
+.mobile-menu {
+	list-style: none;
+	padding: 0;
+}
+
+.mobile-menu li {
+	margin-bottom: 15px;
+}
+
+.mobile-menu a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #333;
+	display: block;
+	padding: 10px;
+	border-radius: 6px;
+	transition: 0.3s;
+}
+
+.mobile-menu a:hover {
+	background: #000;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+.wishlist-header {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Breadcrumb */
+.breadcrumb a {
+    color: #1d1d1d;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    color: #5b5b5b;
+}
+
+
+table img {
+    border-radius: 6px;
+}
+
+table thead {
+    background-color: #e6b566;
+    color: white;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #eee;
+}
+
+.btn-dark {
+    background-color: #1d1d1d;
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #5b5b5b;
+}
+
+.toast-success{
+position: fixed;
+top: 25px;
+right: 25px;
+background: #28a745;
+color: white;
+padding: 15px 22px;
+border-radius: 8px;
+font-size: 15px;
+font-weight: 500;
+box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+z-index: 9999;
+display: flex;
+align-items: center;
+animation: slideIn 0.4s ease;
+transition: opacity 0.5s ease;
+}
+
+@keyframes slideIn{
+from{
+transform: translateX(120%);
+opacity:0;
+}
+to{
+transform: translateX(0);
+opacity:1;
+}
+}
+
+
+/*---------------------------------- feature section ------------------------------------*/
+.features {
+	background: #fafafa;
+	padding: 40px 0;
+}
+
+.feature-box {
+	background: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+	transition: 0.3s;
+	height: 100%;
+}
+
+.feature-box i {
+	font-size: 26px;
+	color: #000;
+	margin-bottom: 10px;
+}
+
+.feature-box:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/*---------------------------------- footer section ------------------------------------*/
+
+.footer-section{
+background:#f5f5f5;
+padding:60px 0 20px;
+font-family:sans-serif;
+
+}
+
+.footer-logo{
+font-weight:700;
+color:#333;
+}
+
+.footer-logo i{
+color:#000;
+margin-right:8px;
+}
+
+.footer-text{
+color:#6c757d;
+margin:15px 0;
+}
+
+.social-icons i{
+font-size:18px;
+margin-right:15px;
+color:#555;
+cursor:pointer;
+transition:0.3s;
+}
+
+.social-icons i:hover{
+color:#000;
+}
+
+.footer-title{
+font-weight:600;
+margin-bottom:15px;
+}
+
+.footer-links{
+list-style:none;
+padding:0;
+}
+
+.footer-links li{
+margin-bottom:10px;
+}
+
+.footer-links a{
+text-decoration:none;
+color:#555;
+transition:0.3s;
+}
+
+.footer-links a:hover{
+color:#000;
+text-decoration:underline;
+}
+
+.footer-bottom{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-top:20px;
+flex-wrap:wrap;
+}
+
+.cart-icon{
+font-size:28px;
+color:#2ecc71;
+}
